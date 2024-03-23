@@ -37,6 +37,27 @@ const obj2 = {
 console.log(deepMerge(obj1, obj2));
 ```
 
+
+## Cloning the Repository
+
+To clone the repository, use the following command:
+
+```bash
+git clone https://github.com/sakibhasancse/UtilityLibrary.git
+```
+
+
+## Running the Code
+
+To compile the TypeScript files and run the code, use the following command:
+
+```bash
+tsc index.ts && node index.js
+```
+
+This command compiles the `index.ts` file into JavaScript and then runs the compiled `index.js` file using Node.js.
+
+
 ## API
 
 ### `reverseString(str: string): string`
@@ -54,3 +75,7 @@ Deep merges two objects, handling nested objects and arrays.
 ### `formatDate(date: Date, timezone: string): string`
 
 Formats a date object to a string in the specified timezone.
+
+
+
+
